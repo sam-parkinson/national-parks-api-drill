@@ -25,7 +25,7 @@ function getData(url) {
 function convertInputs(list, number) {
   const parksArray = list.split(', ').join();
   const l = number - 1;
-  const key = 'your-api-key-here';
+  const key = '1VJPeEIZPN7ifupsbg304mSVIKasSJWZSNGLz4dB';
   const url = `https://developer.nps.gov/api/v1/parks?stateCode=${parksArray}&limit=${l}&api_key=${key}`;
   getData(url);
 }
